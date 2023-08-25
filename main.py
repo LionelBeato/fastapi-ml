@@ -19,4 +19,4 @@ async def chroma():
 
 @app.get("/lang")
 async def lang():
-    return agent.run("whats 2 + 2")
+    return agent.run("whats the opposite of a cat?")
